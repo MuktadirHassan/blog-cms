@@ -1,11 +1,23 @@
-import Head from 'next/head'
+import ArticleCard from '../components/ArticleCard'
+import ArticleCardFull from '../components/ArticleCardFull'
+import Navbar from '../components/Navbar'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-  <div className="p-4 shadow rounded bg-white container m-auto">
-      <h1 className="text-purple-500 leading-normal">Next.js</h1>
-      <p className="text-gray-500">with Tailwind CSS</p>
+  <div className="mx-auto pb-4 px-6 md:w-5/6">
+    <Navbar></Navbar>
+    <div className='sm:grid sm:grid-cols-2 sm:gap-4 lg:grid-cols-3 lg:gap-6'>
+      <div>
+        <ArticleCardFull></ArticleCardFull>
+      </div>
+      <div>
+        <ArticleCard></ArticleCard>
+        <ArticleCard></ArticleCard>
+        <ArticleCard></ArticleCard>
+        <ArticleCard></ArticleCard>
+      </div>
+    </div>
   </div>
   )
 }
