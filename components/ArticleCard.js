@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import { Star } from './Icons'
+import { StarIcon } from './Icons'
 export default function ArticleCard() {
     return (
         <div className='flex justify-between items-center mb-4'>
@@ -11,7 +11,7 @@ export default function ArticleCard() {
                         <a>
                             <h1 className='font-bold text-gray-800 text-lg my-1'>How We Build Micro Frontends</h1>
                             <div className='py-1 text-xs text-gray-700 flex items-center'>
-                                <Link href='#'>Read More</Link> <span className='ml-1'>- 8 min read</span> <Star></Star>
+                                <Link href='#'>Read More</Link> <span className='ml-1'>- 8 min read</span> <StarIcon></StarIcon>
                             </div>
                         </a>
                     </Link>

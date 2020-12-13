@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { Star } from './Icons'
+import { StarIcon } from './Icons'
 export default function ArticleCard() {
     return (
         <div className=''>
@@ -15,7 +15,7 @@ export default function ArticleCard() {
                 <p className='text-gray-700 truncate'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error aspernatur, esse accusamus praesentium laudantium pariatur!</p>
             </div>
             <div className='py-3 md:py-6 text-sm text-gray-500 flex items-center'>
-                <Link href='#'>Read More</Link><span className='ml-1'>- 8 min read</span>  <Star></Star>
+                <Link href='#'>Read More</Link><span className='ml-1'>- 8 min read</span>  <StarIcon></StarIcon>
             </div>
         </div>
     )
