@@ -5,9 +5,8 @@ import { useRouter } from 'next/router'
 
 export default function VerticalMenu() {
     const router = useRouter()
-    console.log(router)
     return (
-        <ul className='flex flex-col text-lg max-w-max mx-auto text-gray-500'>
+        <ul className='flex flex-col text-md max-w-max mx-auto text-gray-500'>
             <Link href="/">
                     <a className='my-6 font-serif font-bold text-3xl text-gray-800'>Copycat</a>
             </Link>
