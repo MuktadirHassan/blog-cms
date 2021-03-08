@@ -14,7 +14,6 @@ A simplified clone of medium.com using Next.js and TailwindCSS.
 
 ```bash
 git clone <repo>
-npm init
 npm install
 ```
 #### Usage:
